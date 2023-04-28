@@ -9,6 +9,12 @@
     
 }
 
+body {
+    background: linear-gradient(to bottom,#bcd6fd, #f6faba);
+    background-attachment: fixed;
+    background-size: cover;
+  
+  }
 li, a, button {
     font-weight: 600;
     font-size: 15px;
@@ -361,20 +367,16 @@ span p {
 /**********************************************************************************/
 
 .program-curs-box{
-    
-    border: solid saddlebrown 1px;
-    display: flex;
     margin-top: 30px;
-   
 }
 
 .program-left-box{
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 30px;
+   
 }
   
-    .right-box{
+.right-box{
     display: flex;
 }
 .img-box-backbgound{
@@ -390,7 +392,7 @@ span p {
 .program-box{
    
     border: rgb(115, 202, 161) solid 2px;
-    margin-top: 20px;  
+      
     border-radius: 10px;
     width: 1000px;
     height: 100px;
@@ -415,6 +417,32 @@ span p {
     transition: 2s;
 }
 
+.program-box-four{
+    margin-top: 20px; 
+    border-radius: 10px;
+    width: 1000px;
+    height: 100px;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.program-box-five{
+    margin-top: 20px; 
+    border-radius: 10px;
+    width: 1000px;
+    height: 100px;
+    overflow: hidden;
+    transition: 2s;
+}
+
+.program-box-sixe{
+    margin-top: 20px; 
+    border-radius: 10px;
+    width: 1000px;
+    height: 100px;
+    overflow: hidden;
+    transition: 2s;
+}
 .program-box-line{    
     width: 1000px;
     height: 300px;
